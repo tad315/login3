@@ -1,0 +1,211 @@
+body {
+    background: url("https://s3-alpha-sig.figma.com/img/c785/88c2/3c41f8b63f721fa410b4768be5f4dd05?Expires=1728864000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=nx0IEGvIoBzyoozfHGy3BY-Is9L5GGpvO9zHlj1yUf64uy8b6hL5SSggyQBofQNbreKM~kUpNHY3X3Nq4IHESftVa4OZnuow7cG8vU14HXqftldIsaINFIRzKGPlQAgAhFAHLaZJMHLr-pKl3oRtCh-1r1Kg7cXAddijhueJm3yIiPjrtS2va4NuA0PdsF4yfP-KyXXZmRHa2AlskoVV4mnHstHuLkkFwNZILtqvStYRdAR7kfGEHGsdalQK7RrHeqBrdsWDFZSpzFdiprWirCdo0pemSesIQGoCG61NlWuMSc7sKcZBFEKMbwE-JBpcwu~FkRWVpPEspBOnVGYhEQ__");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.85);
+    z-index: 1;
+}
+
+.content-input {
+    flex: 1;
+    width: 50%;
+    height: 100vh;
+    background-color: #FFFFFF;
+    box-shadow: 14px 4px 27.8px 0 #00000040;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    max-width: 517px;
+    height: auto;
+    text-align: center;
+    border-radius: 15px;
+    padding: 10px 20px;
+}
+
+.wrapper h1 {
+    text-align: center;
+    font-size: 2.5em;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.2;
+    color: #000000;
+    margin: 0;
+}
+
+.input-field {
+    position: relative;
+}
+
+.input-field input[type="text"],
+.input-field input[type="password"] {
+    border-radius: 17px;
+    width: 85%;
+    max-width: 467px;
+    height: 58px;
+    margin: 8px 0;
+    padding: 0 20px;
+    border: none;
+    box-shadow: 5px 4px 14px 0 #00000040;
+    font-size: 1.2em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.input-field input::placeholder {
+    line-height: 24.38px;
+    color: #6E6E6E;
+}
+
+.sign-up{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 45px 0 20px;
+}
+
+.sign-up p{
+    margin: 0;
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+a.btn-sign-up {
+    font-size: 1.2em;
+    line-height: 24.38px;
+    text-decoration: none;
+    color: #1A98FF;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn-sign-up h4{
+    margin: 0;
+    font-size: 1.2em;
+    display: inline;
+}
+
+.login {
+    width: 80%;
+    max-width: 211px;
+    height: 46px;
+    border: 3px solid #1A98FF;
+    border-radius: 17px;
+}
+
+.login h4{
+    font-size: 1.4em;
+    color: #1A98FF;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 21.94px;
+    margin: 0;
+    text-align: center;
+}
+.login:hover {
+    background-color: #1A98FF;
+    transition: background-color 0.3s, color 0.3s;
+}
+.login h4:hover {
+    color: #fdfdfd;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+.content-img {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Goldman", sans-serif;
+    padding: 20px;
+}
+
+.logomain1{
+    width: 85%;
+    max-width: 556px;
+    height: auto;
+    max-height: 493px;
+    text-align: center;
+}
+
+.title1, .we-text, .ITIS-text {
+    font-size: 2.5em;
+    line-height: 48px;
+    color: #45497a;
+    margin: 0;
+    font-family: "Goldman", sans-serif;
+}
+
+.title2{
+    font-size: 1em;
+    align-items: center;
+    font-family: "Goldman", sans-serif;
+    color: #AEAEAE;
+    margin: 5px 0 0 0;
+}
+
+.content-img img{
+    width: 80%;
+    max-width: 350px;
+    height: auto;
+    opacity: 1;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.we-text{
+    display: inline;
+}
+
+.ITIS-text {
+    display: inline;
+    background: linear-gradient(90deg, #af57cf , #897ce4 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+@media (max-width: 768px) {
+    .wrapper h1, .title1 , .we-text, .ITIS-text {
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 480px) {
+    .wrapper h1, .title1 , .we-text, .ITIS-text {
+        font-size: 1.5em;
+    }
+}
+
+.btn-sign-up {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+.btn-sign-up h4 {
+    color: #1A98FF;
+    margin: 0;
+}
